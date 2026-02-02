@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jyothsna\\Learning\\ScholarHat\\SoftwareArchitecttureDesign\\EZBazar\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6991D792-1B0C-4542-BF8A-97B88D200327}|BackendServices\\AuthenticationService\\AuthService.Presentation\\AuthService.Presentation.csproj|c:\\users\\jyothsna\\learning\\scholarhat\\softwarearchitectturedesign\\ezbazar\\backendservices\\authenticationservice\\authservice.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6991D792-1B0C-4542-BF8A-97B88D200327}|BackendServices\\AuthenticationService\\AuthService.Presentation\\AuthService.Presentation.csproj|solutionrelative:backendservices\\authenticationservice\\authservice.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0722DF9A-97BC-429F-9768-CA05F63F4AB3}|BackendServices\\AuthenticationService\\AuthService.Domain\\AuthService.Domain.csproj|c:\\users\\jyothsna\\learning\\scholarhat\\softwarearchitectturedesign\\ezbazar\\backendservices\\authenticationservice\\authservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0722DF9A-97BC-429F-9768-CA05F63F4AB3}|BackendServices\\AuthenticationService\\AuthService.Domain\\AuthService.Domain.csproj|solutionrelative:backendservices\\authenticationservice\\authservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Learning\\ScholarHat\\SoftwareArchitecttureDesign\\EZBazar\\BackendServices\\AuthenticationService\\AuthService.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "BackendServices\\AuthenticationService\\AuthService.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Learning\\ScholarHat\\SoftwareArchitecttureDesign\\EZBazar\\BackendServices\\AuthenticationService\\AuthService.Presentation\\Program.cs",
+              "RelativeToolTip": "BackendServices\\AuthenticationService\\AuthService.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:53:05.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Learning\\ScholarHat\\SoftwareArchitecttureDesign\\EZBazar\\BackendServices\\AuthenticationService\\AuthService.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "BackendServices\\AuthenticationService\\AuthService.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Learning\\ScholarHat\\SoftwareArchitecttureDesign\\EZBazar\\BackendServices\\AuthenticationService\\AuthService.Domain\\Class1.cs",
+              "RelativeToolTip": "BackendServices\\AuthenticationService\\AuthService.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:42:18.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

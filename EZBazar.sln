@@ -3,9 +3,71 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackendServices", "BackendServices", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontendServices", "FrontendServices", "{F1FB159D-F5F4-4DC1-BE03-50B442276985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateways", "APIGateways", "{DD529674-6747-4ECE-B5AF-7364E2479E87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{0AA789C6-A9C7-484B-A0FD-D03286BB11F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService", "CatalogService", "{4CDEED40-6480-4585-A3BD-6CB80512B8D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{F0E43D06-35C1-4349-8D56-75867D9B2755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthenticationService", "AuthenticationService", "{FE7BE63C-3EBE-4BF1-84B9-ED76AA97F437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CartService", "CartService", "{3EC89BE7-08C4-4E4C-8072-5FEB8F6E8E80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{A93D857B-E36F-447A-98B6-FEE44318CA5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StockService", "StockService", "{8AA842E8-9151-4BF3-8A27-6DDE36B985E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Domain", "BackendServices\AuthenticationService\AuthService.Domain\AuthService.Domain.csproj", "{0722DF9A-97BC-429F-9768-CA05F63F4AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Application", "BackendServices\AuthenticationService\AuthService.Application\AuthService.Application.csproj", "{A486FBFB-7642-4223-BD1C-51AD8AA8E403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infrastructure", "BackendServices\AuthenticationService\AuthService.Infrastructure\AuthService.Infrastructure.csproj", "{016E6CDA-4A08-451A-B6B1-CDD5058DF624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Presentation", "BackendServices\AuthenticationService\AuthService.Presentation\AuthService.Presentation.csproj", "{6991D792-1B0C-4542-BF8A-97B88D200327}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0722DF9A-97BC-429F-9768-CA05F63F4AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0722DF9A-97BC-429F-9768-CA05F63F4AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0722DF9A-97BC-429F-9768-CA05F63F4AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0722DF9A-97BC-429F-9768-CA05F63F4AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A486FBFB-7642-4223-BD1C-51AD8AA8E403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A486FBFB-7642-4223-BD1C-51AD8AA8E403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A486FBFB-7642-4223-BD1C-51AD8AA8E403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A486FBFB-7642-4223-BD1C-51AD8AA8E403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016E6CDA-4A08-451A-B6B1-CDD5058DF624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016E6CDA-4A08-451A-B6B1-CDD5058DF624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016E6CDA-4A08-451A-B6B1-CDD5058DF624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016E6CDA-4A08-451A-B6B1-CDD5058DF624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6991D792-1B0C-4542-BF8A-97B88D200327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6991D792-1B0C-4542-BF8A-97B88D200327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6991D792-1B0C-4542-BF8A-97B88D200327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6991D792-1B0C-4542-BF8A-97B88D200327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CDEED40-6480-4585-A3BD-6CB80512B8D3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F0E43D06-35C1-4349-8D56-75867D9B2755} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FE7BE63C-3EBE-4BF1-84B9-ED76AA97F437} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3EC89BE7-08C4-4E4C-8072-5FEB8F6E8E80} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A93D857B-E36F-447A-98B6-FEE44318CA5A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8AA842E8-9151-4BF3-8A27-6DDE36B985E1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0722DF9A-97BC-429F-9768-CA05F63F4AB3} = {FE7BE63C-3EBE-4BF1-84B9-ED76AA97F437}
+		{A486FBFB-7642-4223-BD1C-51AD8AA8E403} = {FE7BE63C-3EBE-4BF1-84B9-ED76AA97F437}
+		{016E6CDA-4A08-451A-B6B1-CDD5058DF624} = {FE7BE63C-3EBE-4BF1-84B9-ED76AA97F437}
+		{6991D792-1B0C-4542-BF8A-97B88D200327} = {FE7BE63C-3EBE-4BF1-84B9-ED76AA97F437}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB839DAC-C9DC-4665-9963-39F2583044BE}
