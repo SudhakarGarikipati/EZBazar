@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Application", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infrastructure", "BackendServices\AuthenticationService\AuthService.Infrastructure\AuthService.Infrastructure.csproj", "{016E6CDA-4A08-451A-B6B1-CDD5058DF624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Presentation", "BackendServices\AuthenticationService\AuthService.Presentation\AuthService.Presentation.csproj", "{6991D792-1B0C-4542-BF8A-97B88D200327}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.API", "BackendServices\AuthenticationService\AuthService.API\AuthService.API.csproj", "{6991D792-1B0C-4542-BF8A-97B88D200327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
